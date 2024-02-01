@@ -1,0 +1,19 @@
+.footer{
+    background-color: #ff9966;
+    padding: 1.5rem;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-rrss-ul{
+    display: flex;
+    gap:0.5rem
+}
+
+.footer-rrss-button{
+    border: none;
+    background: none;
+}
