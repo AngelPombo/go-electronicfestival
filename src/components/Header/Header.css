@@ -19,7 +19,7 @@
 
 .menu_button {
     -webkit-appearance: none;
-       -moz-appearance: none;
+        -moz-appearance: none;
             appearance: none;
     background: none;
     border: none;
@@ -30,16 +30,16 @@
     display: inline-block;
     box-sizing: border-box;
     -webkit-transition: all .4s;
-       -moz-transition: all .4s;
+        -moz-transition: all .4s;
         -ms-transition: all .4s;
-         -o-transition: all .4s;
-            transition: all .4s;
+        -o-transition: all .4s;
+    transition: all .4s;
 }
 .menu_button {
     position: fixed;
     top: 10%;
     left: 80%;
-    z-index: 1;
+    z-index: 2;
     width: 3rem;
     height: 2.1rem;
     transform: translate(-50%, -50%);
@@ -67,18 +67,86 @@
 }
 .menu_button.on_menu .menu_button_line.top {
     -webkit-transform: translateY(1rem) rotate(-45deg);
-       -moz-transform: translateY(1rem) rotate(-45deg);
+        -moz-transform: translateY(1rem) rotate(-45deg);
         -ms-transform: translateY(1rem) rotate(-45deg);
-         -o-transform: translateY(1rem) rotate(-45deg);
-            transform: translateY(1rem) rotate(-45deg);
+        -o-transform: translateY(1rem) rotate(-45deg);
+    transform: translateY(1rem) rotate(-45deg);
 }
 .menu_button.on_menu .menu_button_line.mid {
     opacity: 0;
 }
 .menu_button.on_menu .menu_button_line.botm {
     -webkit-transform: translateY(-1rem) rotate(45deg);
-       -moz-transform: translateY(-1rem) rotate(45deg);
+        -moz-transform: translateY(-1rem) rotate(45deg);
         -ms-transform: translateY(-1rem) rotate(45deg);
-         -o-transform: translateY(-1rem) rotate(45deg);
-            transform: translateY(-1rem) rotate(45deg);
+        -o-transform: translateY(-1rem) rotate(45deg);
+    transform: translateY(-1rem) rotate(45deg);
+}
+
+.ul-header{
+    padding:0;
+    margin:0;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd2b1;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+
+.nav-link:link, .nav-link:visited, .nav-link:active{
+    color: #420328;
+}
+
+.nav-link > button{
+    color: #420328;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.nav-link > button:hover{
+    color:#a31f60;
+}
+
+.off{
+    animation-name: menu-off;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.on{
+    animation-name: menu-on;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes menu-off{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes menu-on{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }

@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { Body } from './components/Body/Body'
 import { Footer } from './components/Footer/Footer'
@@ -9,8 +10,16 @@ function App() {
   return (
     <div className='app-div'>
       <Header />
-      <Body />
+      <main>
+        <Routes>
+          <Route path='/home' element={<Body />}/>
+          <Route path='/taquilla' element={<p>Taquilla</p>}/>
+          <Route path='/cartel' element={<p>Cartel</p>}/>
+          <Route path='/zona-descanso' element={<p>Zona de descanso</p>}/>
+        </Routes>
+      </main>
       <Footer />
+      
     </div>
   )
 }

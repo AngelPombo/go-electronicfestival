@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../Header/Header.css"
-import logo from "/logo.jpeg"
+import logo from "/logo.svg"
+import { Link } from "react-router-dom";
 
 function Header(){
 
@@ -8,7 +9,6 @@ function Header(){
 
     function handleClick(){
         setClicked(!clicked)
-        
     }
 
     return(
@@ -19,6 +19,15 @@ function Header(){
                 <span class="menu_button_line mid"></span>
                 <span class="menu_button_line botm"></span>
             </button>
+            <menu className="menu-header">
+                <ul className={clicked ? "ul-header on" : "ul-header off"} id='menu'>
+                    <li><Link to={'/home'} className="nav-link"><button onClick={handleClick}>HOME</button></Link></li>
+                    <li><Link to={'/taquilla'} className="nav-link"><button onClick={handleClick}>TAQUILLA</button></Link></li>
+                    <li><Link to={'/cartel'} className="nav-link"><button onClick={handleClick}>CARTEL</button></Link></li>
+                    <li><Link to={'/zona-descanso'} className="nav-link"><button onClick={handleClick}>ZONA DE DESCANSO</button></Link></li>
+                </ul>
+                
+            </menu>
         </header>
     )
 }

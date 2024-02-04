@@ -10,10 +10,36 @@
 
 .footer-rrss-ul{
     display: flex;
-    gap:0.5rem
+    align-items: center;
+    gap: 0.5rem
 }
 
-.footer-rrss-button{
-    border: none;
-    background: none;
+.svg-rrss{
+    fill: #ffd2b1;
+    cursor: pointer;
+    transition: all 200ms ease-out;
 }
+
+.svg-rrss:hover{
+    fill: #420328;
+}
+
+.footer-conditions-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.footer-conditions-ul > li{
+    color: #ffd2b1;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+}
+
+.footer-conditions-ul > li:hover{
+    color: #420328;
+    font-weight: 400;
+}
+
