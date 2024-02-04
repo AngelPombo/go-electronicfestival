@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sulphur Point", sans-serif;
 }
 
 ul{
     list-style:none;
 }
+
+a{
+    text-decoration: none;
+}
+
+/* a:link, a:visited, a:active{
+    color: #ffd2b1;
+} */
+
