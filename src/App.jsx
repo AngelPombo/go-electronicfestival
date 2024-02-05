@@ -16,10 +16,10 @@ function App() {
           <Route path='/taquilla' element={<p>Taquilla</p>}/>
           <Route path='/cartel' element={<p>Cartel</p>}/>
           <Route path='/zona-descanso' element={<p>Zona de descanso</p>}/>
+          <Route path='/historia' element={<p>Historia</p>}/>
         </Routes>
       </main>
       <Footer />
-      
     </div>
   )
 }
