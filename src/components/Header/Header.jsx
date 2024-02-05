@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../Header/Header.css"
-import logo from "/logo.svg"
+import logo from "/logo.png"
 import { Link } from "react-router-dom";
 
 function Header(){
@@ -24,9 +24,9 @@ function Header(){
                     <li><Link to={'/home'} className="nav-link"><button onClick={handleClick}>HOME</button></Link></li>
                     <li><Link to={'/taquilla'} className="nav-link"><button onClick={handleClick}>TAQUILLA</button></Link></li>
                     <li><Link to={'/cartel'} className="nav-link"><button onClick={handleClick}>CARTEL</button></Link></li>
-                    <li><Link to={'/zona-descanso'} className="nav-link"><button onClick={handleClick}>ZONA DE DESCANSO</button></Link></li>
+                    <li><Link to={'/zona-descanso'} className="nav-link"><button onClick={handleClick}>ZONA DESCANSO</button></Link></li>
+                    <li><Link to={'/historia'} className="nav-link"><button onClick={handleClick}>HISTORIA</button></Link></li>
                 </ul>
-                
             </menu>
         </header>
     )
