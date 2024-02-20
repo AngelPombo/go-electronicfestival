@@ -1,0 +1,61 @@
+.cartel-section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cartel-btn{
+    border: none;
+    width: 90vw;
+    height: 50vh;
+    background-color: transparent;
+    /* animation-name: image-on;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+
+.cartel-btn-full{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    background-color: #420328;
+    /* animation-name: image-off;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; */
+}
+
+.cartel-img{
+    object-fit: contain;
+    width: 90vw;
+    height: 50vh;
+    filter: drop-shadow( 3px 3px 4px #a31f60);
+}
+
+.cartel-img-full{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* @keyframes image-off{
+    0%{
+        transform: opacity(100);
+    }
+    100%{
+        transform: opacity(0);
+    }
+}
+
+@keyframes image-on{
+    0%{
+        transform: scale(auto);
+    }
+    100%{
+        transform: scale(100vw);
+    }
+} */
