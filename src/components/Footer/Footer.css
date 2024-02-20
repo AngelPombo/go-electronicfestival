@@ -3,6 +3,10 @@
     padding: 0.5rem;
 }
 
+.none{
+    display: none;
+}
+
 .footer-nav{
     display: flex;
     justify-content: space-around;
@@ -31,7 +35,6 @@
 }
 
 .footer-conditions-ul > li{
-    padding: 0.3rem;
     color: #ffd2b1;
     font-weight: 400;
     cursor: pointer;
