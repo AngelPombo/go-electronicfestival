@@ -1,39 +1,45 @@
 .cartel-section{
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
     align-items: center;
     justify-content: center;
-    height: 60vh;
 }
 
+.artists-iframes{
+    border: none;
+}
+
+.left-div{
+    display: none;
+}
+
+.right-div{
+    display: none;
+}
 .cartel-btn{
     border: none;
-    width: 90vw;
-    height: 50vh;
+    height: 85vh;
     background-color: transparent;
-    /* animation-name: image-on;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards; */
 }
 
-.cartel-btn-full{
+.cartel-container-full{
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     border: none;
     background-color: #420328;
-    /* animation-name: image-off;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
 }
 
 .cartel-img{
     object-fit: contain;
     width: 90vw;
-    height: 50vh;
-    filter: drop-shadow( 3px 3px 4px #a31f60);
+    height: 85vh;
+    filter: drop-shadow( 0px 3px 4px #fb3d56);
+    cursor: pointer;
 }
 
 .cartel-img-full{
@@ -42,20 +48,134 @@
     object-fit: contain;
 }
 
-/* @keyframes image-off{
-    0%{
-        transform: opacity(100);
-    }
-    100%{
-        transform: opacity(0);
-    }
+.download-btn-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
 }
 
-@keyframes image-on{
-    0%{
-        transform: scale(auto);
+.exit-btn-container{
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: right;
+}
+
+.download-btn{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    background-color: #ffd2b1;
+    color: #420328;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 14px;
+    font-weight: 600;
+}
+
+.exit-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 14px;
+}
+
+@media (min-width: 768px) {
+    .cartel-section{
+        padding: 2rem;
     }
-    100%{
-        transform: scale(100vw);
+
+    .cartel-btn{
+        height: 75vh;
     }
-} */
+
+    .cartel-img{
+        height: 75vh;
+    }
+
+    .cartel-container-full{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .cartel-img-full{
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .download-btn{
+        padding: 1rem 1.5rem;
+        border-radius: 14px;
+        font-size: large;
+    }
+
+    .exit-btn{
+        padding: 1rem 1.5rem;
+    }
+
+    .download-btn-container{
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+@media (min-width: 1024px){
+
+    .cartel-container-full{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 95vh;
+        border: none;
+        background-color: #420328;
+        position: absolute;
+        top: 3vh;
+        left: 25vw;
+        z-index: 5;
+        border-radius: 14px;
+        box-shadow: 0px 5px 8px 0px #4203288a;
+        backdrop-filter: blur(10px);
+    }
+
+    .cartel-btn{
+        width: 50vw;
+    }
+
+    .cartel-img{
+        width: 50vw;
+    }
+
+    .cartel-img-full{
+        width: 100%;
+        height: 80%;
+        object-fit: contain;
+    }
+
+    .download-btn{
+        padding: 0.7rem 1.5rem;
+        border-radius: 14px;
+        font-size: small;
+        cursor: pointer;
+    }
+
+    .exit-btn{
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+    }
+
+    .download-btn-container{
+        padding: 0;
+        padding-top: 2rem;
+    }
+
+    .left-div, .right-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        background-color: #fb3d56e7;
+        padding: 2rem;
+        border-radius: 14px;
+    }
+
+}

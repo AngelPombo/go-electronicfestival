@@ -31,10 +31,10 @@ function Home(){
     return(
         <section className="section-home">
             <div className="contador-div">
-               <p className="contador-p"><span className="contador-span">{diasRestantes}</span>D</p>
-               <p className="contador-p"><span className="contador-span">{horasRestantes}</span>H</p>
-               <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>m</p>
-               <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>s</p>
+                <p className="contador-p"><span className="contador-span">{diasRestantes}</span>D</p>
+                <p className="contador-p"><span className="contador-span">{horasRestantes}</span>H</p>
+                <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>m</p>
+                <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>s</p>
             </div>
         </section>
     );

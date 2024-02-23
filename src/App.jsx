@@ -10,22 +10,20 @@ import Historia from './components/Historia/Historia'
 import {useState} from "react";
 
 function App() {
-  
-  const[clicked, setClicked] = useState(false)
 
   return (
     <div className='app-div'>
-      <Header imgClicked={clicked} />
+      <Header />
       <main>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/taquilla' element={<Taquilla />}/>
-          <Route path='/cartel' element={<Cartel clicked={clicked} setClicked={setClicked} />}/>
+          <Route path='/cartel' element={<Cartel />}/>
           <Route path='/camping' element={<Camping />}/>
           <Route path='/historia' element={<Historia />}/>
         </Routes>
       </main>
-      <Footer imgClicked={clicked} />
+      <Footer />
     </div>
   )
 }

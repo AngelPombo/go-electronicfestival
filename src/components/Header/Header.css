@@ -214,10 +214,15 @@
 
 @media (min-width: 1024px){
     .header{
-        justify-content: center;
+        justify-content: space-around;
         padding: 2rem;
         align-items: center;
         gap: 10rem;
+    }
+
+    .header-logo{
+        width: 10%;
+        height: 10%;
     }
 
     .ul-header{
@@ -235,12 +240,6 @@
 
     .on{
         animation: none;
-    }
-    
-
-    .header-logo{
-        width: 20%;
-        height: 20%;
     }
 
     .menu_button {

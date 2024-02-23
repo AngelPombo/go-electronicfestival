@@ -3,7 +3,7 @@ import "../Header/Header.css"
 import logo from "/logo.png"
 import { Link } from "react-router-dom";
 
-function Header({imgClicked}){
+function Header(){
 
     const [clicked, setClicked] = useState(false)
 
@@ -12,7 +12,7 @@ function Header({imgClicked}){
     }
 
     return(
-        <header className={imgClicked ? "header none" : "header"}>
+        <header className={"header"}>
             <img className="header-logo" src={logo} />
                 <button onClick={handleClick} id="js_menu_button" className={`menu_button ${ clicked ? "on_menu" : ""}`}>
                     <span class="menu_button_line top"></span>
