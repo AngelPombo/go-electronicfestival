@@ -1,0 +1,21 @@
+.taquilla-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.taquilla-btn{
+    padding: 1rem;
+    background-color: #b80c46;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.taquilla-btn:hover{
+    background-color: #fb3d57;
+}
