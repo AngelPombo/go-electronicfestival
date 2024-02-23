@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "../Footer/Footer.css"
 
-function Footer({imgClicked}){
+function Footer(){
 
     return(
-        <footer className={imgClicked ? "footer none" : "footer"}>
+        <footer className="footer">
             <nav className="footer-nav">
                 <ul className="footer-conditions-ul">
                     <li>Política de privacidad</li>
