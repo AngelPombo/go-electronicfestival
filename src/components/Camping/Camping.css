@@ -1,0 +1,70 @@
+.camping-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.camping-titulo{
+    color: #b80c46;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.camping-article{
+    color: #420328;
+}
+
+.camping-ul{
+    list-style-type: disc;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.camping-span{
+    color: #b80c46;
+    font-weight: bolder;
+}
+
+.camping-h3{
+    color: #b80c46;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.acordeon .contenedor {
+    position: relative;
+    margin: 10px 10px;
+}
+  
+  
+.acordeon .label {
+    position: relative;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.acordeon .label::before {
+    content: '+';
+    color: #b80c46;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+
+.acordeon .content {
+    position: relative;
+    height: 0;
+    text-align: justify;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.acordeon .contenedor.activa .content {
+    height:fit-content;
+}
+
+.acordeon .contenedor.activa .label::before {
+    content: '-';
+}

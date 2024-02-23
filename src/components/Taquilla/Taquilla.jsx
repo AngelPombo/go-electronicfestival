@@ -1,10 +1,11 @@
 import React from 'react'
+import "./Taquilla.css"
 
 function Taquilla() {
   return (
-    <div>
-      <h3>Puedes adquirir aquí tus abonos:</h3>
-    </div>
+    <section className='taquilla-section'>
+      <button className='taquilla-btn'>COMPRA AQUÍ TU ABONO</button>
+    </section>
   )
 }
 

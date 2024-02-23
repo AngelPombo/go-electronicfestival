@@ -1,0 +1,20 @@
+.historia-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+
+.historia-titulo{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #b80c46;
+}
+
+.historia-info{
+    color: #420328;
+}
+
+.historia-span{
+    font-weight: 900;
+}
