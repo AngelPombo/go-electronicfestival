@@ -1,10 +1,11 @@
+import { Slider } from "../Carrousel/js/Slider";
 import "./Home.css"
 import { useState } from "react"
 
 
 function Home(){
 
-    const [diasRestantes, setDiasRestantes] = useState();
+/*     const [diasRestantes, setDiasRestantes] = useState();
     const [horasRestantes, setHorasRestantes] = useState();
     const [minutosRestantes, setMinutosRestantes] = useState();
     const [segundosRestantes, setSegundosRestantes] = useState();
@@ -26,17 +27,22 @@ function Home(){
         setSegundosRestantes(Math.floor((duracion % milisegundosDeMinuto)/milisegundosDeSegundo));
     }
 
-    setInterval(actualizaContador, 1000);
+    setInterval(actualizaContador, 1000); */
 
     return(
-        <section className="section-home">
-            <div className="contador-div">
-                <p className="contador-p"><span className="contador-span">{diasRestantes}</span>D</p>
-                <p className="contador-p"><span className="contador-span">{horasRestantes}</span>H</p>
-                <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>m</p>
-                <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>s</p>
-            </div>
-        </section>
+        <>
+            <section className="section-home">
+                {/* <div className="contador-div">
+                    <p className="contador-p"><span className="contador-span">{diasRestantes}</span>D</p>
+                    <p className="contador-p"><span className="contador-span">{horasRestantes}</span>H</p>
+                    <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>m</p>
+                    <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>s</p>
+                </div> */}
+                
+            </section>
+            <Slider/>
+        </>
+        
     );
 
 }

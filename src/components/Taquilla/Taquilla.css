@@ -1,11 +1,13 @@
 .taquilla-section{
     display: flex;
-    flex-direction: column;
     padding: 1rem;
     align-items: center;
+    justify-content: center;
 }
 
 .taquilla-btn{
+    display: flex;
+    gap: 1rem;
     padding: 1rem;
     background-color: #b80c46;
     color: white;
