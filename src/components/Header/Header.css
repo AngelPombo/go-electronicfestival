@@ -59,15 +59,15 @@
 }
 
 .menu_button .menu_button_line.top {
-    top: 0;
+    top: 1rem;
 }
 
 .menu_button .menu_button_line.mid {
-    top: 0.5rem; 
+    top: 1.5rem; 
 }
 
 .menu_button .menu_button_line.botm {
-    bottom: 1rem;
+    bottom: 0rem;
 }
 
 .menu_button.on_menu .menu_button_line {
@@ -109,7 +109,6 @@
     background-color: #ffd2b1;
     flex-direction: column;
     z-index: 1;
-    
 }
 
 .nav-link:link, .nav-link:visited, .nav-link:active{
@@ -142,6 +141,7 @@
     animation-duration: 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    box-shadow: 0px 4px 3px -1px #4203285d;
 }
 
 
@@ -241,6 +241,7 @@
 
     .on{
         animation: none;
+        box-shadow: none;
     }
 
     .menu_button {

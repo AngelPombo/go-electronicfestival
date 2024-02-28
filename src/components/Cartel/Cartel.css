@@ -51,7 +51,8 @@
 .download-btn-container{
     display: flex;
     justify-content: center;
-    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
 }
 
 .exit-btn-container{
@@ -164,8 +165,7 @@
     }
 
     .download-btn-container{
-        padding: 0;
-        padding-top: 2rem;
+        padding: 1rem;
     }
 
     .left-div, .right-div{
