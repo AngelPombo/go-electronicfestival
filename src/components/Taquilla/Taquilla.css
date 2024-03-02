@@ -1,6 +1,8 @@
 .taquilla-section{
     display: flex;
     padding: 1rem;
+    min-width: 50vw;
+    min-height: 50vh;
     align-items: center;
     justify-content: center;
 }
@@ -20,4 +22,9 @@
 
 .taquilla-btn:hover{
     background-color: #fb3d57;
+}
+
+.video{
+    position: fixed;
+    z-index: -1;
 }

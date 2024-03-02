@@ -170,7 +170,7 @@
     }
 
     .menu_button {
-        position: fixed;
+        position: sticky;
         top: 14%;
         left: 80%;
         z-index: 2;
