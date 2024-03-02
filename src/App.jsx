@@ -7,7 +7,6 @@ import Taquilla from './components/Taquilla/Taquilla'
 import Cartel from './components/Cartel/Cartel'
 import Camping from './components/Camping/Camping'
 import Historia from './components/Historia/Historia'
-import {useState} from "react";
 
 function App() {
 

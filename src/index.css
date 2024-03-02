@@ -7,6 +7,20 @@
     font-family: "Sulphur Point", sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffd1b14b;       
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fb3d56dc;
+    border-radius: 5px;
+    /* border: 2px solid #ff9966; */
+}
+
 ul{
     list-style:none;
 }
@@ -14,8 +28,3 @@ ul{
 a{
     text-decoration: none;
 }
-
-/* a:link, a:visited, a:active{
-    color: #ffd2b1;
-} */
-

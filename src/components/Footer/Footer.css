@@ -62,8 +62,16 @@
 
 @media (min-width: 1024px) {
 
+    .footer{
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+
     .footer-nav{
-        justify-content: space-between;
+        padding: 0;
+        width: 100vw;
+        justify-content: space-around;
     }
 
     .footer-conditions-ul {
@@ -72,12 +80,17 @@
     }
 
     .footer-conditions-ul > li{
-        font-size: large;
+        font-size: x-small;
     }
 
     .footer-rrss-ul{
         gap: 1rem;
         flex-direction: row;
+    }
+
+    .footer-rrss-ul > li{
+        width: 2rem;
+        height: 2rem;
     }
 
 }
