@@ -216,7 +216,7 @@
 @media (min-width: 1024px){
     .header{
         justify-content: space-around;
-        padding: 2rem;
+        padding: 1rem;
         align-items: center;
         gap: 10rem;
     }
@@ -230,7 +230,7 @@
         position: relative;
         height: auto;
         width: auto;
-        font-size: large;
+        font-size: small;
         flex-direction: row;
         gap: 2rem;
     }
