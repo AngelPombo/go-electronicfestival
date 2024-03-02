@@ -8,7 +8,7 @@
 }
 
 body::-webkit-scrollbar {
-    width: 7px;               /* width of the entire scrollbar */
+    width: 7px;
 }
 
 body::-webkit-scrollbar-track {
@@ -18,7 +18,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #fb3d56dc;
     border-radius: 5px;
-    /* border: 2px solid #ff9966; */
 }
 
 ul{

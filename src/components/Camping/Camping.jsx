@@ -25,13 +25,17 @@ function Camping() {
   return (
     <section className='camping-section'>
         <h2 className='camping-titulo'>Camping</h2>
-        <ReactPlayer 
-        url={video}
-        playing={true} 
-        loop
-        width="100%"
-        height="100%"
-        />
+        <div className='react-player'>
+          <ReactPlayer 
+          url={video}
+          playing={true} 
+          loop
+          width="100%"
+          height="100%"
+          className='video'
+          />
+        </div>
+        
         <article className='camping-article'>
           <p>Dispondremos de nuestra zona de acampada instalada en el Aquapark de Cerceda, que permanecerá abierta desde el viernes 13 de septiembre a las 17:00h hasta el lunes 16 de septiembre a las 12:00h de forma ininterrumpida.</p>
           <p>Para poder acceder al camping es necesario disponer de este producto:</p>

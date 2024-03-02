@@ -128,3 +128,24 @@
     border-bottom:1px solid #b80c46;
     margin: 0;
 }
+
+@media (min-width: 1024px){
+
+    .react-player{
+        display: flex;
+        width: 95vw;
+        height: 60vh;
+        border-radius: 14px;
+    }
+
+    .video{
+        width: 100vw;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    .camping-article{
+        font-size: small;
+    }
+
+}
