@@ -86,7 +86,7 @@
         grid-template-columns: 70vw 1fr;
         column-gap: 2rem;
         row-gap: 0;
-        font-size: small;
+        font-size: medium;
     }
 
     .p1, .p2, .p3{

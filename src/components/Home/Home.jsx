@@ -2,7 +2,7 @@ import ReactPlayer from "react-player";
 import { Slider } from "../Carrousel/js/Slider";
 import "./Home.css"
 import { useState } from "react"
-import videodefault from '../../assets/videodefault.mp4'
+
 
 
 function Home(){
