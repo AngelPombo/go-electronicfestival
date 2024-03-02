@@ -138,14 +138,14 @@
         border-radius: 14px;
     }
 
-    .video{
+    .video-camping{
         width: 100vw;
         height: 60vh;
         object-fit: cover;
     }
 
     .camping-article{
-        font-size: small;
+        font-size: medium;
     }
 
 }

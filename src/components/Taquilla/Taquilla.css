@@ -24,7 +24,15 @@
     background-color: #fb3d57;
 }
 
-.video{
+.div-video-taquilla{
     position: fixed;
     z-index: -1;
+}
+
+@media (min-width: 1024px){
+
+    .video-taquilla{
+        width: 2048px;
+    }
+
 }

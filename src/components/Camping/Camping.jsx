@@ -32,7 +32,7 @@ function Camping() {
           loop
           width="100%"
           height="100%"
-          className='video'
+          className='video-camping'
           />
         </div>
         
