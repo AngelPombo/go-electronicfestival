@@ -40,7 +40,7 @@ function Home(){
                     <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>SEGUNDOS</p>
                 </div>
                 <div className="home-video-div">
-                    <video src={videohome} preload="auto" autoPlay loop className='video-home'></video>
+                    <video src={videohome} preload="auto" autoPlay muted loop className='video-home'></video>
                 </div>
                 <Slider/>
             </section>
