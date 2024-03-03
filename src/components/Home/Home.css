@@ -26,5 +26,22 @@
 
 .section-home{
     display: flex;
-    flex-direction: column;
+    padding: 1rem;
+    min-width: 50vw;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-video-div{
+    position: fixed;
+    z-index: -1;
+}
+
+@media (min-width: 1024px){
+
+    .video-home{
+        width: 2048px;
+    }
+
 }
