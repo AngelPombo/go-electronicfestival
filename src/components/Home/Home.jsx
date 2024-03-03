@@ -2,7 +2,7 @@ import ReactPlayer from "react-player";
 import { Slider } from "../Carrousel/js/Slider";
 import "./Home.css"
 import { useState } from "react"
-
+import videohome from "../../assets/videohome.mp4"
 
 
 function Home(){
@@ -40,15 +40,10 @@ function Home(){
                     <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>m</p>
                     <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>s</p>
                 </div> */}
-                {/* <div>
-            <ReactPlayer
-            url={videodefault}
-            loop
-            playing={true}
-            />
-            </div> */}
-            
-            <Slider/>
+                <div className="home-video-div">
+                    <video src={videohome} preload="auto" autoPlay loop className='video-home'></video>
+                </div>
+                <Slider/>
                 
             </section>
             
