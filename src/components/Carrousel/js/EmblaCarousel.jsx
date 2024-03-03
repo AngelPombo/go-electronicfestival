@@ -22,10 +22,6 @@ const EmblaCarousel = (props) => {
     () => emblaApi && emblaApi.scrollNext(),
     [emblaApi]
   )
-  const scrollTo = useCallback(
-    (index) => emblaApi && emblaApi.scrollTo(index),
-    [emblaApi]
-  )
 
   const onInit = useCallback((emblaApi) => {
     setScrollSnaps(emblaApi.scrollSnapList())
