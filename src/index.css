@@ -8,11 +8,11 @@
 }
 
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
 }
 
 body::-webkit-scrollbar-track {
-    background: #ffd1b14b;       
+    background: #fb3d563f;       
 }
 
 body::-webkit-scrollbar-thumb {
