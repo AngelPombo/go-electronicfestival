@@ -7,6 +7,10 @@ import Taquilla from './components/Taquilla/Taquilla'
 import Cartel from './components/Cartel/Cartel'
 import Camping from './components/Camping/Camping'
 import Historia from './components/Historia/Historia'
+import PoliticaPrivacidad from './components/PoliticaPrivacidad/PoliticaPrivacidad'
+import PoliticaCookies from './components/PoliticaCookies/PoliticaCookies'
+import AvisoLegal from './components/AvisoLegal/AvisoLegal'
+import CondicionesGenerales from './components/CondicionesGenerales/CondicionesGenerales'
 
 function App() {
 
@@ -20,6 +24,10 @@ function App() {
           <Route path='/cartel' element={<Cartel />}/>
           <Route path='/camping' element={<Camping />}/>
           <Route path='/historia' element={<Historia />}/>
+          <Route path='/politica-de-privacidad' element={<PoliticaPrivacidad />}/>
+          <Route path='/politica-de-cookies' element={<PoliticaCookies />}/>
+          <Route path='/aviso-legal' element={<AvisoLegal />}/>
+          <Route path='/condiciones-generales' element={<CondicionesGenerales />}/>
         </Routes>
       </main>
       <Footer />
