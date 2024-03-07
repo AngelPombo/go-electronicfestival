@@ -1,0 +1,38 @@
+.politica-privacidad-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.politica-privacidad-section > p{
+    color:#420328;
+}
+
+.politica-privacidad-titulo{
+    color: #b80c46;
+    text-align: left;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.politica-privacidad-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.politica-privacidad-div > p{
+    color:#420328;
+}
+
+.politica-privacidad-h3{
+    margin-bottom: 0.5rem;
+    color:#420328;
+}
+
+
+

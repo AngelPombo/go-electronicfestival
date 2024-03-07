@@ -1,13 +1,14 @@
 import React from 'react'
+import "./PoliticaCookies.css"
 
 function PoliticaCookies() {
   return (
-    <section>
-      <h1>POLÍTICA DE COOKIES</h1>
+    <section className='politica-cookies-section'>
+      <h2 className='politica-cookies-titulo'>POLÍTICA DE COOKIES</h2>
       <p>Puede usted permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones del navegador instalado en su ordenador.</p>
       <p>Si no está seguro sobre qué tipo y versión de navegador usa para acceder a internet:</p>
       <p>Para Windows: click en ‘Ayuda’ en la parte superior de la ventana de su navegador y seleccione la opción ‘Acerca de’.</p>
-      <div>
+      <div className='politica-cookies-div'>
         <h3>Google Chrome</h3>
         <ol>
           <li>Haz clic en el menú de Chrome Chrome situado en la barra de herramientas del navegador.</li>
@@ -18,7 +19,7 @@ function PoliticaCookies() {
           <li>Para mayor detalle consulta la ayuda de Google Chrome.</li>
         </ol>
       </div>
-      <div>
+      <div className='politica-cookies-div'>
         <h3>Microsoft Internet Explorer 7.0 y 8.0</h3>
         <ol>
           <li>Haga clic en el botón “Herramientas” y después en “Opciones de Internet”.</li>
@@ -31,7 +32,7 @@ function PoliticaCookies() {
           <li>Puedes consultar la ayuda de Windows para más información.</li>
         </ol>
       </div>
-      <div>
+      <div className='politica-cookies-div'>
         <h3>Mozilla Firefox</h3>
         <ol>
           <li>En la parte superior de la ventana de Firefox, haz clic en el botón Firefox y selecciona “Opciones”.</li>
@@ -42,7 +43,7 @@ function PoliticaCookies() {
           <li>Puedes consultar la ayuda de Mozilla para más información.</li>
         </ol>
       </div>
-      <div>
+      <div className='politica-cookies-div'>
         <h3>Safari</h3>
         <ol>
           <li>Haga clic en “Safari” en la parte superior de la ventana de su navegador y seleccione la opción ‘Preferencias’. </li>
@@ -50,7 +51,7 @@ function PoliticaCookies() {
           <li>En el apartado “Bloquear cookies” seleccione una de las siguientes opciones según le interese: “De publicidad y terceros”, “Siempre”, o “Nunca”.</li>
         </ol>
       </div>
-      <div>
+      <div className='politica-cookies-div'>
         <h3>Opera</h3>
         <ol>
           <li>Haga clic en “Configuración” en la parte superior de la ventana del navegador y selecciona ‘Opciones’.</li>

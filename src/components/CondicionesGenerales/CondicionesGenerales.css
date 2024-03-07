@@ -1,0 +1,49 @@
+.condiciones-generales-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.condiciones-generales-section > p{
+    color:#420328;
+    margin-bottom: 0.5rem;
+}
+
+.condiciones-generales-titulo{
+    color: #b80c46;
+    text-align: left;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.condiciones-generales-div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.condiciones-generales-div > p, ul{
+    color:#420328;
+}
+
+.condiciones-generales-div > h3{
+    color: #420328;
+    margin-bottom: 0.25rem;
+}
+
+.condiciones-generales-div > span{
+    color: #420328;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    font-weight: 900;
+}
+
+.condiciones-generales-div > h4{
+    color: #420328;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+}
