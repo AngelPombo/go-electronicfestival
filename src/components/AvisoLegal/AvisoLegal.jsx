@@ -1,9 +1,10 @@
 import React from 'react'
+import "./AvisoLegal.css"
 
 function AvisoLegal() {
   return (
-    <section>
-      <h1>AVISO LEGAL</h1>
+    <section className='aviso-legal-section'>
+      <h2 className='aviso-legal-titulo'>AVISO LEGAL</h2>
       <p>El presente aviso e información legales (en adelante, “Aviso Legal”) regula el uso del servicio del sitio Web de Internet “www.goelectronicfestival.com” (en adelante, “Go! Electronic Festival ”)Organización de eventos del norte SL(En adelante, “la empresa”) pone a disposición de los usuarios de Internet.</p>
       <p>La empresa tiene su domicilio social en C/Alvite 86 sorrizo ( Arteixo) Cp 15144 la coruña. La utilización de la empresa atribuye la condición de usuario de la empresa (en adelante, “Usuario”) e implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal en la versión publicada por la empresa en el momento mismo en que el Usuario acceda al Portal. En consecuencia el Usuario debe leer atentamente el presente Aviso Legal en cada una de las ocasiones en que se proponga utilizar la empresa, ya que aquél puede sufrir modificaciones.</p>
       <p>La empresa es un sitio Web que ofrece a los usuarios de Internet, el acceso a información, a través de la totalidad de las páginas que lo integran, acceso a contenidos y noticias directamente en sus páginas o mediante enlaces a otras direcciones de acceso libre en la red.</p>
