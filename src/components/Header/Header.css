@@ -123,6 +123,7 @@
     font-size: larger;
     font-weight: 700;
     cursor: pointer;
+    transition: all 200ms ease-out;
 }
 
 .nav-link > button:hover{
@@ -235,7 +236,7 @@
         position: relative;
         height: auto;
         width: auto;
-        font-size: small;
+        font-size: large;
         flex-direction: row;
         gap: 2rem;
     }

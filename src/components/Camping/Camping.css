@@ -58,6 +58,7 @@
     text-align: center;
     background-color: #b80c46;
     width: fit-content;
+    cursor: pointer;
 }
 
 .camping-h3{
@@ -129,7 +130,17 @@
     margin: 0;
 }
 
+@media (min-width: 768px){
+    .camping-section{
+        font-size: larger;
+    }
+}
+
 @media (min-width: 1024px){
+
+    .camping-section{
+        font-size: large;
+    }
 
     .react-player{
         display: flex;

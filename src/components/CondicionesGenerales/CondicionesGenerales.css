@@ -1,8 +1,7 @@
 .condiciones-generales-section{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-    margin-top: 1rem;
+    padding: 2rem;
     text-align: justify;
     word-break: break-word;
 }
@@ -22,8 +21,10 @@
 .condiciones-generales-div{
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
     margin-top: 1rem;
+    font-size: smaller;
 }
 
 .condiciones-generales-div > p, ul{
@@ -31,19 +32,44 @@
 }
 
 .condiciones-generales-div > h3{
-    color: #420328;
+    color: #ff9966;
     margin-bottom: 0.25rem;
 }
 
 .condiciones-generales-div > span{
-    color: #420328;
+    color: #b80c46;
     margin-bottom: 0.25rem;
     margin-top: 0.25rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .condiciones-generales-div > h4{
-    color: #420328;
+    color: #b80c46;
     margin-bottom: 0.25rem;
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.condiciones-generales-div > ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (min-width: 768px){
+    .condiciones-generales-section{
+        font-size: large;
+    }
+    .condiciones-generales-div{
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1024px){
+    .condiciones-generales-section{
+        font-size: medium;
+        padding: 4rem;
+    }
+    .condiciones-generales-div{
+        font-size: smaller;
+    }
 }
