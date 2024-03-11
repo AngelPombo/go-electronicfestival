@@ -1,0 +1,39 @@
+.not-found{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  font-size: medium;
+}
+
+.not-found > button {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  background-color: #ff9966;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: large;
+  transition: all 200ms ease-out;
+}
+
+.not-found > button:hover{
+  background-color: transparent;
+  color: #ff9966;
+  border: 2px solid #ff9966;
+  border-radius: 14px;
+}
+
+.not-found > span{
+  color: #fb3d57;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.not-found > p{
+  color: #420328;
+}
