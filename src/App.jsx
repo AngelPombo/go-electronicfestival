@@ -11,6 +11,7 @@ import PoliticaPrivacidad from './components/PoliticaPrivacidad/PoliticaPrivacid
 import PoliticaCookies from './components/PoliticaCookies/PoliticaCookies'
 import AvisoLegal from './components/AvisoLegal/AvisoLegal'
 import CondicionesGenerales from './components/CondicionesGenerales/CondicionesGenerales'
+import { NotFound } from './components/NotFound/NotFound'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/politica-de-cookies' element={<PoliticaCookies />}/>
           <Route path='/aviso-legal' element={<AvisoLegal />}/>
           <Route path='/condiciones-generales' element={<CondicionesGenerales />}/>
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </main>
       <Footer />
