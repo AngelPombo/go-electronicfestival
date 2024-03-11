@@ -92,7 +92,7 @@ function CondicionesGenerales() {
         <h3>Plataforma de resolución de litigios en línea</h3>
         <p>Si ha adquirido la entrada a nuestro evento online y en el eventual caso de que no haya sido posible resolver una incidencia dirigiéndose al correo electrónico Anderson@shotgun.live    de conformidad con lo establecido en el artículo 14.1 del Reglamento 524/2013, de 21 de mayo de 2013, sobre resolución de litigios en línea en materia de consumo, le informamos de que usted tiene la posibilidad de recurrir a una entidad de resolución alternativa de litigios en materia de consumo accesible a través de la dirección https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home.chooseLanguage</p>
       </div>
-      <div h3 className='condiciones-generales-div'>
+      <div className='condiciones-generales-div'>
         <h3>13. Legislación aplicable</h3>
         <p>Las presentes Condiciones Generales se rigen por la legislación española.</p>
         <p>Para cuantas cuestiones pudieran suscitarse sobre la interpretación, aplicación, cumplimiento o incumplimiento de lo establecido en estas Condiciones Generales, los usuarios, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someterán a la jurisdicción de los Juzgados y Tribunales de la coruña (galicia), lugar de cumplimiento de la obligación.</p>
