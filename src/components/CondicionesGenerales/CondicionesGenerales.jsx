@@ -4,7 +4,7 @@ import "./CondicionesGenerales.css"
 function CondicionesGenerales() {
   return (
     <section className='condiciones-generales-section'>
-      <h2 className='condiciones-generales-titulo'>CONDICIONES GENERALES DE ACCESO Y PARTICIPACIÓN EN EL FESTIVAL – GO! Electronic Festival</h2>
+      <h2 className='condiciones-generales-titulo'>CONDICIONES GENERALES</h2>
       <p>Organizacion de eventos del norte SL (en adelante, la Compañía), manifiesta su respeto y cumplimiento de las disposiciones recogidas en la Ley Orgánica 15/1999, de 13 de Diciembre, de Protección de Datos de Carácter Personal. Por ello, le informa de su política de protección de datos para que Usted determine voluntariamente si desea facilitar sus datos personales a la Compañía.</p>
       <div className='condiciones-generales-div'>
         <h3>1. Introducción</h3>

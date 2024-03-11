@@ -13,7 +13,7 @@ function Home(){
 
     function actualizaContador(){
         const fechaHoy = new Date();
-        const fechaFestival = new Date("2024-09-13");
+        const fechaFestival = new Date("Fri Sep 13 2024 17:00:00 UTC+01:00");
         const duracion = fechaFestival - fechaHoy;
         const milisegundosDeSegundo = 1000;
         const milisegundosDeMinuto = milisegundosDeSegundo * 60;
@@ -33,11 +33,13 @@ function Home(){
     return(
         <>
             <section className="section-home">
-                <div className={`contador-div ${diasRestantes === 0 && horasRestantes === 0 && minutosRestantes === 0 && segundosRestantes === 0 ? 'clear' : ""}`}>
-                    <p className="contador-p"><span className="contador-span">{diasRestantes}</span>DÍAS</p>
-                    <p className="contador-p"><span className="contador-span">{horasRestantes}</span>HORAS</p>
-                    <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>MINUTOS</p>
-                    <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>SEGUNDOS</p>
+                <div className={`contador-container ${diasRestantes === 0 && horasRestantes === 0 && minutosRestantes === 0 && segundosRestantes === 0 ? 'clear' : ""}`}>
+                    <div className="contador-div">
+                        <p className="contador-p"><span className="contador-span">{diasRestantes}</span>DÍAS</p>
+                        <p className="contador-p"><span className="contador-span">{horasRestantes}</span>HORAS</p>
+                        <p className="contador-p"><span className="contador-span">{minutosRestantes}</span>MINUTOS</p>
+                        <p className="contador-p"><span className="contador-span">{segundosRestantes}</span>SEGUNDOS</p>
+                    </div>
                 </div>
                 <div className="home-video-div">
                     <video src={videohome} preload="auto" autoPlay muted loop className='video-home'></video>

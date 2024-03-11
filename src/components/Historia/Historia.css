@@ -42,6 +42,10 @@
 
 @media (min-width: 768px) {
 
+    .historia-section{
+        font-size: medium;
+    }
+
     .historia-content{
         display: grid;
         grid-template-areas: 
@@ -100,6 +104,10 @@
     }
 }
 @media (min-width: 1024px){
+
+    .historia-section{
+        font-size: large;
+    }
 
     .historia-content{
         grid-template-areas: 

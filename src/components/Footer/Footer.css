@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .svg-rrss{
@@ -35,14 +36,7 @@
 }
 
 .footer-conditions-ul > li{
-    color: #ffd2b1;
-    font-weight: 400;
-    cursor: pointer;
-    transition: all 200ms ease-out;
-}
-
-.footer-conditions-ul > li:hover{
-    color: #420328;
+    font-size: small;
     font-weight: 400;
 }
 
@@ -55,7 +49,16 @@
 
     .footer-conditions-ul > li{
         padding: 0.3rem;
-        font-size: large;
+        font-size: medium;
+    }
+
+    .footer-rrss-ul{
+        gap: 1rem;
+    }
+
+    .footer-rrss-ul > li > a > svg{
+        width: 42px;
+        height: 42px;
     }
 
 }
@@ -84,7 +87,7 @@
     }
 
     .footer-rrss-ul{
-        gap: 1rem;
+        gap: 2rem;
         flex-direction: row;
     }
 

@@ -82,13 +82,15 @@
   }
 
   .embla__buttons {
-    left: 45%;
-    bottom: -30%;
+    width: 100vw;
+    justify-content: space-between;
+    left: 0%;
+    bottom: -15%;
   }
 
   .embla__button__svg {
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
   }
 
 }

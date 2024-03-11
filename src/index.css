@@ -26,8 +26,15 @@ ul{
 
 a{
     text-decoration: none;
+    color: #ffd2b1;
+    cursor: pointer;
+    transition: all 200ms ease-out;
 }
 
 a:visited{
-    color: inherit;
+    color: #ffd2b1;
+}
+
+a:hover{
+    color: #420328;
 }
