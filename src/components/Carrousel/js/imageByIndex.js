@@ -11,7 +11,7 @@ import image10 from '../images/Oguz.png'
 import image11 from '../images/Rebekah.png'
 import image12 from '../images/Remco-Beekwilder.png'
 import image13 from '../images/RJ-Junior.png'
-import image14 from '../images/Stëh.png'
+import image14 from '../images/Steh.png'
 import image15 from '../images/TheLadyMachine.png'
 
 export const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15]
