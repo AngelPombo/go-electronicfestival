@@ -88,3 +88,9 @@
     }
 
 }
+
+@media (min-width: 2048px){
+    .video-home{
+        width: 4096px;
+    }
+}
