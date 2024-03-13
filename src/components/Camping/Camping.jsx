@@ -37,7 +37,7 @@ function Camping() {
         </div>
         
         <article className='camping-article'>
-          <p>Dispondremos de nuestra zona de acampada instalada en el Aquapark de Cerceda, que permanecerá abierta desde el viernes 13 de septiembre a las 17:00h hasta el lunes 16 de septiembre a las 12:00h de forma ininterrumpida.</p>
+          <p>Dispondremos de nuestra zona de acampada instalada en el Aquapark de Cerceda, que permanecerá abierta desde el viernes 13 de septiembre a las 10:00h hasta el lunes 16 de septiembre a las 12:00h de forma ininterrumpida.</p>
           <p>Para poder acceder al camping es necesario disponer de este producto:</p>
           <ul className="ul-bonos">
             <Link to={'/taquilla'}><li className='camping-bono'>Abono General + Camping</li></Link>

@@ -42,7 +42,7 @@ function Home(){
                     </div>
                 </div>
                 <div className="home-video-div">
-                    <video src={videohome} preload="auto" autoPlay muted loop className='video-home'></video>
+                    <video src={videohome} preload="auto" autoPlay muted loop playsInline className='video-home'></video>
                 </div>
                 <Slider/>
             </section>
