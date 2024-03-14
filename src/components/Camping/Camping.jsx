@@ -47,9 +47,8 @@ function Camping() {
             <li><p>Zonas de <span className="resaltado">baño y duchas</span>, con agua caliente.</p></li>
             <li><p>Sanitarios provistos de <span className="resaltado">baños, lavabos, espejos, enchufes</span> y atendidos por un <span className="resaltado">equipo de mantenimiento y limpieza 24 horas</span>.</p></li>
             <li><p>Amplias <span className="resaltado">zonas de sombra</span>.</p></li>
-            <li><p>Fuentes con <span className="resaltado">agua potable</span>.</p></li>
             <li><p>Espacio para <span className="resaltado">recarga de móviles</span>.</p></li>
-            <li><p><span className="resaltado">Zona bar</span> para adquirir bebidas y hielo. Dispondremos de <span className="resaltado">packs a la venta</span> que incluirán botella, vasos, hielo y refresco.</p></li>
+            <li><p><span className="resaltado">Zona de foodtrucks</span>.</p></li>
           </ul>
           <div className="important-container">
             <h4 className='camping-span'>IMPORTANTE:</h4>
@@ -61,7 +60,7 @@ function Camping() {
               <section>
               <div className={`contenedor ${clicked ? "activa" : ""} `} onClick={() => setClicked(!clicked)}> 
                 <h4 className='label'>¿Qué horarios tiene la zona de acampada?</h4>
-                <p className='content'>Desde las 17:00h del viernes 13 de septiembre hasta las 12:00h del lunes 16 de septiembre.</p>
+                <p className='content'>Desde las 10:00h del viernes 13 de septiembre hasta las 12:00h del lunes 16 de septiembre.</p>
               </div>
               <div className={`contenedor ${clicked1 ? "activa" : ""} `} onClick={() => setClicked1(!clicked1)}> 
                 <h4 className='label'>¿Puedo escoger donde montar mi tienda?</h4>
