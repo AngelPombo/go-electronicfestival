@@ -2,6 +2,7 @@ import { Slider } from "../Carrousel/js/Slider";
 import "./Home.css"
 import { useState } from "react"
 import videohome from "../../assets/videohome.mp4"
+import ReactPlayer from "react-player";
 
 
 function Home(){
@@ -42,7 +43,16 @@ function Home(){
                     </div>
                 </div>
                 <div className="home-video-div">
-                    <video src={videohome} preload="auto" autoPlay muted loop playsInline className='video-home'></video>
+                <ReactPlayer
+                    url={videohome}
+                    playing={true} 
+                    loop
+                    muted
+                    playsinline
+                    width="100%"
+                    height="100%"
+                    className='video-home'
+                    />
                 </div>
                 <Slider/>
             </section>
