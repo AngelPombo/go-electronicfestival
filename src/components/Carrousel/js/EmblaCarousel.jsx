@@ -52,7 +52,7 @@ const EmblaCarousel = (props) => {
                 <img
                   className="embla__slide__img"
                   src={imageByIndex(index)}
-                  alt="Your alt text"
+                  alt="Imagen de artista en carrusel"
                 />
               </div>
             ))}
