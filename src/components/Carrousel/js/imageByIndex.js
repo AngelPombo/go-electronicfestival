@@ -1,6 +1,6 @@
 import image1 from '../images/6ejou.png'
 import image2 from '../images/Afem-Syko.png'
-import image3 from '../images/Ambam.png'
+import image3 from '../images/Obscure-Shape.png'
 import image4 from '../images/Carv.png'
 import image5 from '../images/EllenAllien3.png'
 import image6 from '../images/Helena-Hauff.png'
