@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Cartel.css"
 import { Link } from 'react-router-dom';
-import cartel from '/Cartel5.png'
+import cartel from '/cartel6.jpeg'
 import Iframe from 'react-iframe';
 function Cartel() {
 

@@ -16,8 +16,9 @@ import image15 from '../images/TheLadyMachine.png'
 import image16 from '../images/Estella-Boersma.png'
 import image17 from '../images/Nikolina.png'
 import image18 from '../images/Toni-Alvarez.png'
+import image19 from '../images/Cleric-Felice.jpeg'
 
-export const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18]
+export const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13, image14, image15, image16, image17, image18, image19]
 
 const imageByIndex = (index) => images[index % images.length]
 
