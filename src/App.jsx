@@ -12,6 +12,7 @@ import PoliticaCookies from './components/PoliticaCookies/PoliticaCookies'
 import AvisoLegal from './components/AvisoLegal/AvisoLegal'
 import CondicionesGenerales from './components/CondicionesGenerales/CondicionesGenerales'
 import { NotFound } from './components/NotFound/NotFound'
+import Disclaimer from './components/Disclaimer/Disclaimer'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/taquilla' element={<Taquilla />}/>
+          <Route path='/disclaimer' element={<Disclaimer />}/>
           <Route path='/cartel' element={<Cartel />}/>
           <Route path='/camping' element={<Camping />}/>
           <Route path='/historia' element={<Historia />}/>
