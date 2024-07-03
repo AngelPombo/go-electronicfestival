@@ -21,6 +21,7 @@ function Camping() {
   const [clicked12, setClicked12] = useState(false);
   const [clicked13, setClicked13] = useState(false);
   const [clicked14, setClicked14] = useState(false);
+  const [clicked15, setClicked15] = useState(false);
 
   return (
     <section className='camping-section'>
@@ -117,6 +118,10 @@ function Camping() {
               <div className={`contenedor ${clicked14 ? "activa" : ""} `} onClick={() => setClicked14(!clicked14)}> 
                 <h4 className='label'>¿Puedo llevar mascotas?</h4>
                 <p className='content'><span className='camping-span'>NO.</span> No está permitido ya que podría alterar la convivencia en la zona de acampada.</p>
+              </div>
+              <div className={`contenedor ${clicked15 ? "activa" : ""} `} onClick={() => setClicked15(!clicked15)}> 
+                <h4 className='label'>¿Van a estar disponibles las atracciones del aquapark?</h4>
+                <p className='content'><span className='camping-span'>NO.</span> Habrá zonas para refrescarse pero el acceso a los toboganes y a las piscinas permanecerán cerrados por seguridad.</p>
               </div>
               </section>
             </div>  
