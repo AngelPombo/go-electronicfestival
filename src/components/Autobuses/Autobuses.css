@@ -5,6 +5,16 @@
     margin-top: 1rem;
 }
 
+.autobuses-section a {
+    color: white; 
+    text-decoration: none;
+}
+  
+.autobuses-section a:visited {
+    color: white; 
+    text-decoration: none;
+}
+
 .autobuses-titulo{
     color: #b80c46;
     text-align: left;
