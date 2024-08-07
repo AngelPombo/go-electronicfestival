@@ -1,0 +1,59 @@
+.autobuses-section{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.autobuses-titulo{
+    color: #b80c46;
+    text-align: left;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.autobuses-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.autobuses-info-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1rem;
+    color: #420328;
+}
+
+.autobuses-info-ul{
+    margin-top: 0.5rem;
+}
+
+.autobuses-span{
+    font-weight: 600;
+    color: #b80c46
+}
+
+@media (min-width: 768px){
+    .autobuses-section{
+        font-size: larger;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .autobuses-section{
+        font-size: large;
+    }
+
+    .autobuses-info-div{
+        margin-top: 2rem;
+    }
+
+    .autobuses-info-ul{
+        margin-top: 1rem;
+    }
+
+}
